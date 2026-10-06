@@ -1,0 +1,15 @@
+CT01: Compra < R$ 100 cliente COMUM (Esperado: 0% de desc. = R$ 0,00)
+
+CT02: Compra exata de R$ 100 cliente COMUM (Esperado: 10% desc. = R$ 10,00)
+
+CT03: Compra de R$ 300 cliente COMUM (Esperado: 10% desc. = R$ 30,00)
+
+CT04: Compra exata de R$ 500 cliente COMUM (Esperado: 20% desc. = R$ 100,00)
+
+CT05: Compra < R$ 100 cliente VIP (Esperado: 0% + 5% desc. = R$ 2,50)
+
+CT06: Compra de R$ 200 cliente "vip" em minúsculo (Esperado: 10% + 5% desc. = R$ 30,00)
+
+CT07: Compra de R$ 1000 cliente VIP (Esperado: R$ 250, mas Teto limita a R$ 200,00)
+
+CT08: Compra de R$ 1500 cliente COMUM (Esperado: R$ 300, mas Teto limita a R$ 200,00)
